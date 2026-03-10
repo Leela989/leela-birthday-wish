@@ -33,12 +33,12 @@ export const letterLines = [
   { text: "Every moment has its own special place",                                        delay: 3.5,  style: "big"       },
   { text: "You are not that much beautiful like you think",                                                                    delay: 4.8,  style: "big"        },
   { text: "Looks average but that's okay, I wont consider beauty in friendship😂😂😂...",                                                     delay: 5.3,  style: "big"        },
-  { text: "You are so Lucky",                                                                      delay: 10.0, style: "big"       },
-  { text: "for having me in your life.",                                                delay: 10.5, style: "big"       },
-  { text: "I pray the God to continue your luck till the end😂😂😂",                                             delay: 11.0, style: "big"   },
-  { text: "Happy Birthday, my Leela. 🎂",                                                      delay: 12.2, style: "closing"    },
-  { text: "I hate you.",                                                                        delay: 13.0, style: "signature"  },
-  { text: "— Potti 🌙",                                                                        delay: 13.8, style: "from"       },
+  { text: "You are so Lucky",                                                                      delay: 5.0, style: "big"       },
+  { text: "for having me in your life.",                                                delay: 5.2, style: "big"       },
+  { text: "I pray the God to continue your luck till the end😂😂😂",                                             delay: 5.4, style: "big"   },
+  { text: "Happy Birthday, my Leela. 🎂",                                                      delay: 5.5, style: "closing"    },
+  { text: "I hate you.",                                                                        delay: 5.6, style: "signature"  },
+  { text: "— Potti 🌙",                                                                        delay: 5.8, style: "from"       },
 ];
 
 // ─── Background data ──────────────────────────────────────────────────────────

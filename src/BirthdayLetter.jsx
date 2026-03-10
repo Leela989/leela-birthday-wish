@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 // Soft music plays. Floating petals drift. Each word lands slowly.
 
 export default function BirthdayLetter({ bgAudioRef, letterLines }) {
-  const letterAudioRef = useRef(null);
+  const audioRef     = useRef(null);
   const [visibleLines, setVisibleLines]   = useState([]);
   const [envelopeOpen, setEnvelopeOpen]   = useState(false);
   const [letterReady, setLetterReady]     = useState(false);
@@ -46,7 +46,7 @@ export default function BirthdayLetter({ bgAudioRef, letterLines }) {
   // Audio: pause bg, play letter song (song1 reused softly)
   useEffect(() => {
     const audioBg  = bgAudioRef.current;
-    const audioLet = letterAudioRef.current;
+    const audioLet = audioRef.current;
     if (audioBg) audioBg.pause();
     if (audioLet) {
       audioLet.volume = 0.35;
@@ -85,7 +85,9 @@ export default function BirthdayLetter({ bgAudioRef, letterLines }) {
     <div style={ls.root}>
       {/* Letter song — uses song1 at low volume as a soft backdrop */}
 
-
+    <audio ref={audioRef} loop preload="auto">
+      <source src="/music/song55.mp3" type="audio/mp3" />
+    </audio>
       {/* Floating petals */}
       {petals.map(p => (
         <div key={p.id} style={{

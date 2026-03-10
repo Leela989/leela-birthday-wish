@@ -76,9 +76,9 @@ export default function LeelaBirthday() {
 
       {/* ── Background music (song1 as default ambient track) ─────────────── */}
       {/* Replace /music/birthday_bg.mp3 with whichever song you want as bg   */}
-<audio ref={audioRef} loop preload="auto">
-  <source src="/music/birthday_bg.mp3" type="audio/mp3" />
-</audio>
+      <audio ref={audioRef} loop preload="auto">
+        <source src="/music/birthday_bg.mp3" type="audio/mp3" />
+      </audio>
 
       {/* ── Cursor glow ─────────────────────────────────────────────────── */}
       <div style={{ ...st.cursorGlow, left:`${mousePos.x}%`, top:`${mousePos.y}%` }} />
