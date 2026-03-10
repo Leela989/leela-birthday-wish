@@ -4,9 +4,9 @@ import Lightbox      from "./Lightbox";
 import Polaroid      from "./Polaroid";
 import BirthdayWish  from "./BirthdayWish";
 import BirthdayLetter from "./BirthdayLetter";
-import { st, strip, tl, globalStyles } from "./birthdayStyles";
+import { st, strip, globalStyles } from "./birthdayStyles";
 import {
-  pages, memories, timeline, letterLines,
+  pages, memories, letterLines,
   starField, shootingStars, floatingOrbs, confettiBits,
 } from "./birthdayData";
 
